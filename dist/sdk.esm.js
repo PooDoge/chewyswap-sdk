@@ -34,9 +34,9 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73';
+var FACTORY_ADDRESS = '0xEDedDbde5ffA62545eDF97054edC11013ED72125';
 var FACTORY_ADDRESS_MAP = (_FACTORY_ADDRESS_MAP = {}, _FACTORY_ADDRESS_MAP[ChainId.MAINNET] = FACTORY_ADDRESS, _FACTORY_ADDRESS_MAP[ChainId.DOGECHAIN] = '0x7C10a3b7EcD42dd7D79C0b9d58dDB812f92B574A', _FACTORY_ADDRESS_MAP);
-var INIT_CODE_HASH = '0xb336a8b47fdc2600ed0b1be659f72b59cb3096a8dd3814eda610401c00f5fd49';
+var INIT_CODE_HASH = '0xa2ef75f706f4aa0c026dd9371dab1bac975a91bc8f0852a86e6f330eedd30848';
 var INIT_CODE_HASH_MAP = (_INIT_CODE_HASH_MAP = {}, _INIT_CODE_HASH_MAP[ChainId.MAINNET] = INIT_CODE_HASH, _INIT_CODE_HASH_MAP[ChainId.DOGECHAIN] = '0xb336a8b47fdc2600ed0b1be659f72b59cb3096a8dd3814eda610401c00f5fd49', _INIT_CODE_HASH_MAP);
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
@@ -437,7 +437,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x8ed7d143Ef452316Ab1123d28Ab302dC3b80d3ce', 18, 'WBONE', 'Wrapped BONE', 'https://shib.io'), _WETH[ChainId.DOGECHAIN] = /*#__PURE__*/new Token(ChainId.DOGECHAIN, '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101', 18, 'WWDOGE', 'Wrapped WDOGE', 'https://dogechain.dog'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x26cB8660EeFCB2F7652e7796ed713c9fB8373f8e', 18, 'WBONE', 'Wrapped BONE', 'https://shib.io'), _WETH[ChainId.DOGECHAIN] = /*#__PURE__*/new Token(ChainId.DOGECHAIN, '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101', 18, 'WWDOGE', 'Wrapped WDOGE', 'https://dogechain.dog'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);

@@ -13,12 +13,12 @@ export declare enum Rounding {
     ROUND_HALF_UP = 1,
     ROUND_UP = 2
 }
-export declare const FACTORY_ADDRESS = "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73";
+export declare const FACTORY_ADDRESS = "0xEDedDbde5ffA62545eDF97054edC11013ED72125";
 export declare const FACTORY_ADDRESS_MAP: {
     109: string;
     2000: string;
 };
-export declare const INIT_CODE_HASH = "0xb336a8b47fdc2600ed0b1be659f72b59cb3096a8dd3814eda610401c00f5fd49";
+export declare const INIT_CODE_HASH = "0xa2ef75f706f4aa0c026dd9371dab1bac975a91bc8f0852a86e6f330eedd30848";
 export declare const INIT_CODE_HASH_MAP: {
     109: string;
     2000: string;
