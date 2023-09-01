@@ -437,7 +437,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x26cB8660EeFCB2F7652e7796ed713c9fB8373f8e', 18, 'WBONE', 'Wrapped BONE', 'https://shib.io'), _WETH[ChainId.DOGECHAIN] = /*#__PURE__*/new Token(ChainId.DOGECHAIN, '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101', 18, 'WWDOGE', 'Wrapped WDOGE', 'https://dogechain.dog'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xC76F4c819D820369Fb2d7C1531aB3Bb18e6fE8d8', 18, 'WBONE', 'Wrapped BONE', 'https://shib.io'), _WETH[ChainId.DOGECHAIN] = /*#__PURE__*/new Token(ChainId.DOGECHAIN, '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101', 18, 'WWDOGE', 'Wrapped WDOGE', 'https://dogechain.dog'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
