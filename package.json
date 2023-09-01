@@ -2,13 +2,13 @@
   "name": "@pancakeswap/sdk",
   "license": "MIT",
   "version": "2.4.3",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "description": "🛠 An SDK for building applications on top of ChewySwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "repository": "https://github.com/poodoge/chewyswap-sdk.git",
   "keywords": [
     "pancakeswap",
     "bsc"
