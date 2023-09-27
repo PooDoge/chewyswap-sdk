@@ -1237,7 +1237,7 @@ var Trade = /*#__PURE__*/function () {
   currentPairs, originalAmountIn, bestTrades) {
     var _ref = _temp === void 0 ? {} : _temp,
         _ref$maxNumResults = _ref.maxNumResults,
-        maxNumResults = _ref$maxNumResults === void 0 ? 3 : _ref$maxNumResults,
+        maxNumResults = _ref$maxNumResults === void 0 ? 2 : _ref$maxNumResults,
         _ref$maxHops = _ref.maxHops,
         maxHops = _ref$maxHops === void 0 ? 2 : _ref$maxHops;
 
