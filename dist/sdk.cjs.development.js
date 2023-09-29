@@ -1237,7 +1237,7 @@ var Trade = /*#__PURE__*/function () {
   currentPairs, originalAmountIn, bestTrades) {
     var _ref = _temp === void 0 ? {} : _temp,
         _ref$maxNumResults = _ref.maxNumResults,
-        maxNumResults = _ref$maxNumResults === void 0 ? 2 : _ref$maxNumResults,
+        maxNumResults = _ref$maxNumResults === void 0 ? 3 : _ref$maxNumResults,
         _ref$maxHops = _ref.maxHops,
         maxHops = _ref$maxHops === void 0 ? 2 : _ref$maxHops;
 
@@ -1321,7 +1321,7 @@ var Trade = /*#__PURE__*/function () {
         _ref2$maxNumResults = _ref2.maxNumResults,
         maxNumResults = _ref2$maxNumResults === void 0 ? 3 : _ref2$maxNumResults,
         _ref2$maxHops = _ref2.maxHops,
-        maxHops = _ref2$maxHops === void 0 ? 3 : _ref2$maxHops;
+        maxHops = _ref2$maxHops === void 0 ? 2 : _ref2$maxHops;
 
     if (currentPairs === void 0) {
       currentPairs = [];
